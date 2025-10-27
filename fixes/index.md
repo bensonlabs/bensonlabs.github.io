@@ -1,9 +1,16 @@
 ---
 title: Fixes
-nav_order: 2
-has_children: true
+nav_order: 1
 ---
 
-# Fixes
+# Fixes (All)
 
-This section lists quick fixes and how-tos. Add a new page under `fixes/` and it will appear in the sidebar.
+{% assign fixes = site.pages
+  | where_exp:"p","p.path contains 'fixes/' and p.name != 'index.md'"
+  | sort: "title" %}
+
+<ul>
+{% for p in fixes %}
+  <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a>{% if p.tags %} <small>— {{ p.tags | join: ", " }}</small>{% endif %}</li>
+{% endfor %}
+</ul>
