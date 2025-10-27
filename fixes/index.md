@@ -1,9 +1,8 @@
----
 title: Fixes
-nav_order: 2
 has_children: true
----
+nav_exclude: true
 
-# Fixes
+_config.yml (optional but handy)
+Add this at the end (top-level):
 
-This section lists quick fixes and how-tos. Add a new page under `fixes/` and it will appear in the sidebar.
+enable_copy_code_button: true
