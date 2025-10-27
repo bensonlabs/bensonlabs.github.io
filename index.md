@@ -1,13 +1,9 @@
----
-title: Home
+title: Fixes
 nav_order: 1
----
+Fixes (All)
 
-# Benson Labs — Tech Notes
+{% assign fixes = site.pages
+| where_exp:"p","p.path contains 'fixes/' and p.name != 'index.md'"
+| sort: "title" %}
 
-Fast, searchable fixes for macOS, Intune, Synology, Plex/Jellyfin, homelab, and more.
-
-- **All fixes** → [/fixes](./fixes/)
-- Tags: `macOS`, `Intune`, `Synology`, `Networking`, `Plex`, `Jellyfin`, `Proxmox`, `ZFS`
-
-Tip: To add a new note, create a file in `fixes/` using the template below.
+<ul> {% for p in fixes %} <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a>{% if p.tags %} <small>— {{ p.tags | join: ", " }}</small>{% endif %}</li> {% endfor %} </ul>
