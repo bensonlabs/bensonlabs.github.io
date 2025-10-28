@@ -2,7 +2,6 @@ title: Benson Labs Notes
 description: Tech fixes, quick snippets, and commands
 remote_theme: just-the-docs/just-the-docs
 plugins:
-jekyll-remote-theme
-
+  - jekyll-remote-theme
 search_enabled: true
 enable_copy_code_button: true
