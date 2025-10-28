@@ -1,16 +1,8 @@
 title: Benson Labs Notes
 description: Tech fixes, quick snippets, and commands
 remote_theme: just-the-docs/just-the-docs
-enable_copy_code_button: true
-
 plugins:
-  - jekyll-remote-theme
 
+	•	jekyll-remote-theme
 search_enabled: true
-logo: # (optional) /assets/logo.png
-color_scheme: light
-
-# Navigation order for top-level pages
-nav_order: 1
-
-# Collections off — we’ll just use folders + pages
+enable_copy_code_button: true
