@@ -1,6 +1,7 @@
 ---
-title: Fixes
-nav_order: 1
+title: Home
+has_toc: false
+nav_order: 0
 ---
 
 # Fixes (All)
