@@ -1,3 +1,7 @@
+just_the_docs:
+  toc:
+    enable: false
+
 title: Benson Labs Notes
 description: Tech fixes, quick snippets, and commands
 remote_theme: just-the-docs/just-the-docs
