@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Fixes
 has_toc: false
 nav_order: 0
 ---
