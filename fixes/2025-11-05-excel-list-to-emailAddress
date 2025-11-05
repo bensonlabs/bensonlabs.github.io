@@ -4,6 +4,6 @@ parent: Fixes
 tags: [Windows, PowerShell, Active Directory]
 ---
 
-## Column A is your list of names.
-## Column B will be your working area
+## Column A is your list of names [First Last]
+## Column B will be your working area.  Once formual resolves, use fill handle to pull down the rest.
 =LOWER(LEFT(A1,1) & TRIM(RIGHT(SUBSTITUTE(A1," "," "),LEN(A1))) & "@hw.com;")
