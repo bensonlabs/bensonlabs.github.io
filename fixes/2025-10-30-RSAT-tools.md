@@ -10,8 +10,8 @@ tags: [Windows, PowerShell, Active Directory]
 3. View Features
 4. Search for "RSAT" (must be online)
 
-{% comment
+{% comment%}
 # needs work on this scripting
 # This installs AD Users and Computers and Group Policy Management
 # Add-WindowsCapability -Online -Name RSAT:ActiveDirectory-DomainServices; Add-WindowsCapability -Online -Name RSAT:GroupPolicy-Management
-%}
+{% endcomment%}
